@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Camera demo</title>
+		<meta charset='utf-8'>
+		<link rel='stylesheet' href='main.css'>
+		<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/water.css@2/out/water.css'>
+		<script defer src='capture.js'></script>
+	</head>
+	<body>
+		<h1>A camera</h1>
+
+		<div class='grid'>
+			<div class='camera'>
+				<video id='video'>Video stream not available.</video>
+			</div>
+
+			<div class='output'>
+				<img id='photo' alt='The screen capture will appear in this box.'> 
+			</div>
+		</div>
+
+		<button class='button' id='start-button'>Take photo</button> 
+		<br>
+
+		<canvas id='canvas'></canvas>
+	</body>
+</html>
